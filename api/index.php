@@ -16,7 +16,7 @@ if (isset($_POST['ok'])) {
     }
 }
 
-require_once __DIR__ . "/../Layout/body.php";
+require_once "/var/task/user/layout/body.php" ;
 
 ?>
 <?php if ($showModal): ?>
