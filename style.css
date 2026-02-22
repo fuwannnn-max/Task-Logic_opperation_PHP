@@ -1,0 +1,36 @@
+.checkbox {
+        transform: scale(2);
+        margin: 10px;
+        margin-left: 30px;
+        margin-top: 20px;
+        cursor: pointer;
+
+    }
+
+    .container-produk {
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 20px;
+
+        justify-content: center;
+
+    }
+
+
+    .item-produk {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: 0.3s;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
