@@ -16,7 +16,7 @@ if (isset($_POST['ok'])) {
     }
 }
 
-require_once "../Task-Logic_opperation_PHP//layout/body.php" ;
+require_once " ../var/task/user/layout/body.php" ;
 
 ?>
 <?php if ($showModal): ?>
