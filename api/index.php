@@ -5,15 +5,19 @@ $showModal = false;
 if (isset($_POST['ok'])) {
     $produk1 = isset($_POST['produk1']);
     $produk2 = isset($_POST['produk2']);
+    $produk3 = isset($_POST['produk3']);
+
     $showModal = true;
 
     if (!$produk1 && !$produk2) {
         $hasil = "pilih minimal 1 produk!";
     } elseif ($produk1 && $produk2) {
         $hasil = "kamu mendapatkan diskon";
-    } else {
-        $hasil = "kamu tidak mendapatkan diskon. Tambah 1 produk lagi untuk mendapatkan diskon!";
     }
+
+if ($produk1 || $produk2 || $produk3) {
+    $hasil = "pilih 1 produk lagi untuk mendapatkan diskon" ;
+}
 }
 
 require_once "/var/task/user/layout/body.php" ;

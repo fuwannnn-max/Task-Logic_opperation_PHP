@@ -51,6 +51,22 @@
       </div>
     </div>
 
+<div class="item-produk">
+        <div class="card h-100" style="width: 18rem">
+          <div class="ratio ratio-1x1">
+            <img
+              class="card-img-top"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5vWwW5WTMDCr-uzPDNSk3aqX8zEBxzklryw&s"
+              alt="Card image cap" />
+          </div>
+          <div class="card-body">
+            <p class="card-text">Laptop Lenovo ThinkPad</p>
+          </div>
+        </div>
+        <input type="checkbox" name="produk3" class="checkbox" />
+      </div>
+    </div>
+
     <br />
     <div class="text-center mt-4 mb-5">
       <button type="submit" name="ok" class="btn btn-primary btn-lg buton">
